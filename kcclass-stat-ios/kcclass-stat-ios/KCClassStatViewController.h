@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IncidentsDisplayViewController.h"
 
-@interface KCClassStatViewController : UIViewController
+@interface KCClassStatViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+
+- (IBAction)openPendingIncidentsView;
+- (IBAction)openClosedIncidentsView;
 
 @end

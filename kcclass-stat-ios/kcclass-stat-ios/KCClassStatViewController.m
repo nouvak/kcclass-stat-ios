@@ -57,4 +57,18 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction) openPendingIncidentsView {    
+    IncidentsDisplayViewController *oView = [[IncidentsDisplayViewController alloc] initWithNibName: @"IncidentsDisplayViewController" bundle:[NSBundle mainBundle]];
+    oView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:oView animated:YES];
+}
+
+- (IBAction) openClosedIncidentsView {
+    IncidentsDisplayViewController *oView = [[IncidentsDisplayViewController alloc] initWithNibName: @"IncidentsDisplayViewController" bundle:[NSBundle mainBundle]];
+    oView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:oView animated:YES];
+}
+
+
+
 @end
