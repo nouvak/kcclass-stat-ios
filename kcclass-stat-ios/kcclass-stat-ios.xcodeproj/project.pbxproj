@@ -18,6 +18,8 @@
 		DD8027E8181EA3990090AEE5 /* logo-kc-class.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8027E7181EA3990090AEE5 /* logo-kc-class.png */; };
 		DD8027EC181EA7630090AEE5 /* IncidentsDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8027EA181EA7630090AEE5 /* IncidentsDisplayViewController.m */; };
 		DD8027ED181EA7630090AEE5 /* IncidentsDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD8027EB181EA7630090AEE5 /* IncidentsDisplayViewController.xib */; };
+		DD8027F0181EB3A90090AEE5 /* IncidentsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8027EF181EB3A90090AEE5 /* IncidentsTableCell.m */; };
+		DD8027F2181EB4CB0090AEE5 /* IncidentsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD8027F1181EB4CB0090AEE5 /* IncidentsTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,9 @@
 		DD8027E9181EA7630090AEE5 /* IncidentsDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncidentsDisplayViewController.h; sourceTree = "<group>"; };
 		DD8027EA181EA7630090AEE5 /* IncidentsDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncidentsDisplayViewController.m; sourceTree = "<group>"; };
 		DD8027EB181EA7630090AEE5 /* IncidentsDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncidentsDisplayViewController.xib; sourceTree = "<group>"; };
+		DD8027EE181EB3A90090AEE5 /* IncidentsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncidentsTableCell.h; sourceTree = "<group>"; };
+		DD8027EF181EB3A90090AEE5 /* IncidentsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncidentsTableCell.m; sourceTree = "<group>"; };
+		DD8027F1181EB4CB0090AEE5 /* IncidentsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncidentsTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +98,9 @@
 				DD8027E9181EA7630090AEE5 /* IncidentsDisplayViewController.h */,
 				DD8027EA181EA7630090AEE5 /* IncidentsDisplayViewController.m */,
 				DD8027EB181EA7630090AEE5 /* IncidentsDisplayViewController.xib */,
+				DD8027EE181EB3A90090AEE5 /* IncidentsTableCell.h */,
+				DD8027EF181EB3A90090AEE5 /* IncidentsTableCell.m */,
+				DD8027F1181EB4CB0090AEE5 /* IncidentsTableCell.xib */,
 			);
 			path = "kcclass-stat-ios";
 			sourceTree = "<group>";
@@ -164,6 +172,7 @@
 				DD8027DD181E953A0090AEE5 /* KCClassStatViewController.xib in Resources */,
 				DD8027E8181EA3990090AEE5 /* logo-kc-class.png in Resources */,
 				DD8027ED181EA7630090AEE5 /* IncidentsDisplayViewController.xib in Resources */,
+				DD8027F2181EB4CB0090AEE5 /* IncidentsTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +187,7 @@
 				DD8027D7181E953A0090AEE5 /* KCClassStatAppDelegate.m in Sources */,
 				DD8027DA181E953A0090AEE5 /* KCClassStatViewController.m in Sources */,
 				DD8027EC181EA7630090AEE5 /* IncidentsDisplayViewController.m in Sources */,
+				DD8027F0181EB3A90090AEE5 /* IncidentsTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

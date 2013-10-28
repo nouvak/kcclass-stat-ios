@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IncidentsTableCell.h"
 
-@interface IncidentsDisplayViewController : UIViewController
+@interface IncidentsDisplayViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+
 
 @end
