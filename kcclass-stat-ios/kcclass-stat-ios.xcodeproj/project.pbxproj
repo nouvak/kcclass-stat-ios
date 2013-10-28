@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD8027C7181E953A0090AEE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8027C6181E953A0090AEE5 /* UIKit.framework */; };
+		DD8027C9181E953A0090AEE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8027C8181E953A0090AEE5 /* Foundation.framework */; };
+		DD8027CB181E953A0090AEE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8027CA181E953A0090AEE5 /* CoreGraphics.framework */; };
+		DD8027D1181E953A0090AEE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD8027CF181E953A0090AEE5 /* InfoPlist.strings */; };
+		DD8027D3181E953A0090AEE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8027D2181E953A0090AEE5 /* main.m */; };
+		DD8027D7181E953A0090AEE5 /* KCClassStatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8027D6181E953A0090AEE5 /* KCClassStatAppDelegate.m */; };
+		DD8027DA181E953A0090AEE5 /* KCClassStatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8027D9181E953A0090AEE5 /* KCClassStatViewController.m */; };
+		DD8027DD181E953A0090AEE5 /* KCClassStatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD8027DB181E953A0090AEE5 /* KCClassStatViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD8027C2181E953A0090AEE5 /* kcclass-stat-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kcclass-stat-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8027C6181E953A0090AEE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD8027C8181E953A0090AEE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD8027CA181E953A0090AEE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD8027CE181E953A0090AEE5 /* kcclass-stat-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kcclass-stat-ios-Info.plist"; sourceTree = "<group>"; };
+		DD8027D0181E953A0090AEE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD8027D2181E953A0090AEE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD8027D4181E953A0090AEE5 /* kcclass-stat-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kcclass-stat-ios-Prefix.pch"; sourceTree = "<group>"; };
+		DD8027D5181E953A0090AEE5 /* KCClassStatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCClassStatAppDelegate.h; sourceTree = "<group>"; };
+		DD8027D6181E953A0090AEE5 /* KCClassStatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCClassStatAppDelegate.m; sourceTree = "<group>"; };
+		DD8027D8181E953A0090AEE5 /* KCClassStatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCClassStatViewController.h; sourceTree = "<group>"; };
+		DD8027D9181E953A0090AEE5 /* KCClassStatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCClassStatViewController.m; sourceTree = "<group>"; };
+		DD8027DC181E953A0090AEE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KCClassStatViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD8027BF181E953A0090AEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8027C7181E953A0090AEE5 /* UIKit.framework in Frameworks */,
+				DD8027C9181E953A0090AEE5 /* Foundation.framework in Frameworks */,
+				DD8027CB181E953A0090AEE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD8027B7181E953A0090AEE5 = {
+			isa = PBXGroup;
+			children = (
+				DD8027CC181E953A0090AEE5 /* kcclass-stat-ios */,
+				DD8027C5181E953A0090AEE5 /* Frameworks */,
+				DD8027C3181E953A0090AEE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD8027C3181E953A0090AEE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD8027C2181E953A0090AEE5 /* kcclass-stat-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD8027C5181E953A0090AEE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD8027C6181E953A0090AEE5 /* UIKit.framework */,
+				DD8027C8181E953A0090AEE5 /* Foundation.framework */,
+				DD8027CA181E953A0090AEE5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD8027CC181E953A0090AEE5 /* kcclass-stat-ios */ = {
+			isa = PBXGroup;
+			children = (
+				DD8027D5181E953A0090AEE5 /* KCClassStatAppDelegate.h */,
+				DD8027D6181E953A0090AEE5 /* KCClassStatAppDelegate.m */,
+				DD8027D8181E953A0090AEE5 /* KCClassStatViewController.h */,
+				DD8027D9181E953A0090AEE5 /* KCClassStatViewController.m */,
+				DD8027DB181E953A0090AEE5 /* KCClassStatViewController.xib */,
+				DD8027CD181E953A0090AEE5 /* Supporting Files */,
+			);
+			path = "kcclass-stat-ios";
+			sourceTree = "<group>";
+		};
+		DD8027CD181E953A0090AEE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD8027CE181E953A0090AEE5 /* kcclass-stat-ios-Info.plist */,
+				DD8027CF181E953A0090AEE5 /* InfoPlist.strings */,
+				DD8027D2181E953A0090AEE5 /* main.m */,
+				DD8027D4181E953A0090AEE5 /* kcclass-stat-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD8027C1181E953A0090AEE5 /* kcclass-stat-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8027E0181E953A0090AEE5 /* Build configuration list for PBXNativeTarget "kcclass-stat-ios" */;
+			buildPhases = (
+				DD8027BE181E953A0090AEE5 /* Sources */,
+				DD8027BF181E953A0090AEE5 /* Frameworks */,
+				DD8027C0181E953A0090AEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kcclass-stat-ios";
+			productName = "kcclass-stat-ios";
+			productReference = DD8027C2181E953A0090AEE5 /* kcclass-stat-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD8027B9181E953A0090AEE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "XLAB d.o.o.";
+			};
+			buildConfigurationList = DD8027BC181E953A0090AEE5 /* Build configuration list for PBXProject "kcclass-stat-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD8027B7181E953A0090AEE5;
+			productRefGroup = DD8027C3181E953A0090AEE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD8027C1181E953A0090AEE5 /* kcclass-stat-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD8027C0181E953A0090AEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8027D1181E953A0090AEE5 /* InfoPlist.strings in Resources */,
+				DD8027DD181E953A0090AEE5 /* KCClassStatViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD8027BE181E953A0090AEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8027D3181E953A0090AEE5 /* main.m in Sources */,
+				DD8027D7181E953A0090AEE5 /* KCClassStatAppDelegate.m in Sources */,
+				DD8027DA181E953A0090AEE5 /* KCClassStatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD8027CF181E953A0090AEE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8027D0181E953A0090AEE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD8027DB181E953A0090AEE5 /* KCClassStatViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8027DC181E953A0090AEE5 /* en */,
+			);
+			name = KCClassStatViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD8027DE181E953A0090AEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD8027DF181E953A0090AEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8027E1181E953A0090AEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kcclass-stat-ios/kcclass-stat-ios-Prefix.pch";
+				INFOPLIST_FILE = "kcclass-stat-ios/kcclass-stat-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD8027E2181E953A0090AEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kcclass-stat-ios/kcclass-stat-ios-Prefix.pch";
+				INFOPLIST_FILE = "kcclass-stat-ios/kcclass-stat-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD8027BC181E953A0090AEE5 /* Build configuration list for PBXProject "kcclass-stat-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8027DE181E953A0090AEE5 /* Debug */,
+				DD8027DF181E953A0090AEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8027E0181E953A0090AEE5 /* Build configuration list for PBXNativeTarget "kcclass-stat-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8027E1181E953A0090AEE5 /* Debug */,
+				DD8027E2181E953A0090AEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD8027B9181E953A0090AEE5 /* Project object */;
+}
