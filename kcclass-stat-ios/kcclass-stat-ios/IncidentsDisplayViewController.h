@@ -10,6 +10,9 @@
 #import "IncidentsTableCell.h"
 
 @interface IncidentsDisplayViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+{
+    NSMutableArray *incidentsArray;
+}
 
-
+@property(nonatomic, retain) NSMutableArray *incidentsArray;
 @end

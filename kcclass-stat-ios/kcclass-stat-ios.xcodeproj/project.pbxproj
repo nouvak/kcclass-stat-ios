@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD31D66018280D9200D1E6FD /* Incident.m in Sources */ = {isa = PBXBuildFile; fileRef = DD31D65F18280D9200D1E6FD /* Incident.m */; };
 		DD8027C7181E953A0090AEE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8027C6181E953A0090AEE5 /* UIKit.framework */; };
 		DD8027C9181E953A0090AEE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8027C8181E953A0090AEE5 /* Foundation.framework */; };
 		DD8027CB181E953A0090AEE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8027CA181E953A0090AEE5 /* CoreGraphics.framework */; };
@@ -20,9 +21,16 @@
 		DD8027ED181EA7630090AEE5 /* IncidentsDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD8027EB181EA7630090AEE5 /* IncidentsDisplayViewController.xib */; };
 		DD8027F0181EB3A90090AEE5 /* IncidentsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8027EF181EB3A90090AEE5 /* IncidentsTableCell.m */; };
 		DD8027F2181EB4CB0090AEE5 /* IncidentsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD8027F1181EB4CB0090AEE5 /* IncidentsTableCell.xib */; };
+		DDF465C6182A64E0000B1118 /* AlarmsDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF465C4182A64E0000B1118 /* AlarmsDisplayViewController.m */; };
+		DDF465C7182A64E0000B1118 /* AlarmsDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF465C5182A64E0000B1118 /* AlarmsDisplayViewController.xib */; };
+		DDF465CB182A7C11000B1118 /* AlarmsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF465C9182A7C11000B1118 /* AlarmsTableCell.m */; };
+		DDF465CC182A7C11000B1118 /* AlarmsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF465CA182A7C11000B1118 /* AlarmsTableCell.xib */; };
+		DDF465CF182A7D0E000B1118 /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF465CE182A7D0E000B1118 /* Alarm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD31D65E18280D9200D1E6FD /* Incident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Incident.h; sourceTree = "<group>"; };
+		DD31D65F18280D9200D1E6FD /* Incident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Incident.m; sourceTree = "<group>"; };
 		DD8027C2181E953A0090AEE5 /* kcclass-stat-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kcclass-stat-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8027C6181E953A0090AEE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD8027C8181E953A0090AEE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,6 +51,14 @@
 		DD8027EE181EB3A90090AEE5 /* IncidentsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncidentsTableCell.h; sourceTree = "<group>"; };
 		DD8027EF181EB3A90090AEE5 /* IncidentsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncidentsTableCell.m; sourceTree = "<group>"; };
 		DD8027F1181EB4CB0090AEE5 /* IncidentsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncidentsTableCell.xib; sourceTree = "<group>"; };
+		DDF465C3182A64E0000B1118 /* AlarmsDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmsDisplayViewController.h; sourceTree = "<group>"; };
+		DDF465C4182A64E0000B1118 /* AlarmsDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmsDisplayViewController.m; sourceTree = "<group>"; };
+		DDF465C5182A64E0000B1118 /* AlarmsDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlarmsDisplayViewController.xib; sourceTree = "<group>"; };
+		DDF465C8182A7C11000B1118 /* AlarmsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmsTableCell.h; sourceTree = "<group>"; };
+		DDF465C9182A7C11000B1118 /* AlarmsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmsTableCell.m; sourceTree = "<group>"; };
+		DDF465CA182A7C11000B1118 /* AlarmsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlarmsTableCell.xib; sourceTree = "<group>"; };
+		DDF465CD182A7D0D000B1118 /* Alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alarm.h; sourceTree = "<group>"; };
+		DDF465CE182A7D0E000B1118 /* Alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alarm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,16 @@
 				DD8027EE181EB3A90090AEE5 /* IncidentsTableCell.h */,
 				DD8027EF181EB3A90090AEE5 /* IncidentsTableCell.m */,
 				DD8027F1181EB4CB0090AEE5 /* IncidentsTableCell.xib */,
+				DD31D65E18280D9200D1E6FD /* Incident.h */,
+				DD31D65F18280D9200D1E6FD /* Incident.m */,
+				DDF465C3182A64E0000B1118 /* AlarmsDisplayViewController.h */,
+				DDF465C4182A64E0000B1118 /* AlarmsDisplayViewController.m */,
+				DDF465C5182A64E0000B1118 /* AlarmsDisplayViewController.xib */,
+				DDF465C8182A7C11000B1118 /* AlarmsTableCell.h */,
+				DDF465C9182A7C11000B1118 /* AlarmsTableCell.m */,
+				DDF465CA182A7C11000B1118 /* AlarmsTableCell.xib */,
+				DDF465CD182A7D0D000B1118 /* Alarm.h */,
+				DDF465CE182A7D0E000B1118 /* Alarm.m */,
 			);
 			path = "kcclass-stat-ios";
 			sourceTree = "<group>";
@@ -173,6 +199,8 @@
 				DD8027E8181EA3990090AEE5 /* logo-kc-class.png in Resources */,
 				DD8027ED181EA7630090AEE5 /* IncidentsDisplayViewController.xib in Resources */,
 				DD8027F2181EB4CB0090AEE5 /* IncidentsTableCell.xib in Resources */,
+				DDF465C7182A64E0000B1118 /* AlarmsDisplayViewController.xib in Resources */,
+				DDF465CC182A7C11000B1118 /* AlarmsTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +216,10 @@
 				DD8027DA181E953A0090AEE5 /* KCClassStatViewController.m in Sources */,
 				DD8027EC181EA7630090AEE5 /* IncidentsDisplayViewController.m in Sources */,
 				DD8027F0181EB3A90090AEE5 /* IncidentsTableCell.m in Sources */,
+				DD31D66018280D9200D1E6FD /* Incident.m in Sources */,
+				DDF465C6182A64E0000B1118 /* AlarmsDisplayViewController.m in Sources */,
+				DDF465CB182A7C11000B1118 /* AlarmsTableCell.m in Sources */,
+				DDF465CF182A7D0E000B1118 /* Alarm.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +331,7 @@
 				DD8027E2181E953A0090AEE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
